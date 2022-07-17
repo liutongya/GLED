@@ -1,2 +1,6 @@
 # rclv_global
-The workflow of producing the dataset of global RCLVs
+A Global Lagrangian Coherent Eddy Dataset Based on Satellite Altimetry
+
+GLED v1.1
+
+by Tongya Liu and Ryan Abernathey
