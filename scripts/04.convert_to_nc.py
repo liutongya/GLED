@@ -1,4 +1,4 @@
-# Convert the MITgcm output to NC files
+# Convert the MITgcm output to NC files after the particle advection based on the our model configuration
 
 import numpy as np
 from floater import utils
