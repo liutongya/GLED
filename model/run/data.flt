@@ -1,0 +1,10 @@
+ &FLT_NML
+# output frequency = 30 days
+ flt_int_traj = 864000.,
+ flt_int_prof = 0.0,
+ flt_noise    = 0.0,
+ flt_selectTrajOutp = 3,
+ flt_file     = '/data/home/liutongya/RCLV/run_lavd/BIN_files/flt_ini_pos_hex.epac.32deg.bin',
+ flt_npart    = 39848999,
+ &
+

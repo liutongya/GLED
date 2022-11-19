@@ -1,0 +1,46 @@
+# ====================
+# | Model parameters |
+# ====================
+#
+# Continuous equation parameters
+ &PARM01
+ tempStepping=.FALSE.,
+ saltStepping=.FALSE.,
+ useSingleCpuIO=.TRUE.,
+ &
+#
+# Elliptic solver parameters
+ &PARM02
+ cg2dMaxIters=1000,
+ cg2dTargetResidual=1.E-13,
+ &
+#
+# Time stepping parameters
+ &PARM03
+ nIter0 = 0,
+# duration: 180 days + 1 timestep
+ nTimeSteps=17281,
+ deltaTtracer= 900.0,
+ deltaTClock = 900.0,
+ pChkptFreq=0.,
+ chkptFreq= 0.,
+ dumpFreq=  0.,
+ taveFreq=  0.,
+ monitorFreq= 86400.,
+ &
+#
+# Gridding parameters
+ &PARM04
+ usingCartesianGrid=.FALSE.,
+ usingSphericalPolarGrid=.TRUE.,
+ delX=3600*0.1,
+ delY=1600*0.1,
+ delZ=100.,
+ ygOrigin=-80.,
+ xgOrigin=0.0,
+ &
+#
+# Input datasets
+ &PARM05
+ bathyFile='/data/home/liutongya/RCLV/run_lavd/BIN_files/bathy.bin',
+ &

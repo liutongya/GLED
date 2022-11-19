@@ -1,0 +1,21 @@
+ &OFFLINE_PARM01
+# velocities should be symlinked in a local directory
+  UvelFile= 'offline_velocities/uvel'
+  VvelFile= 'offline_velocities/vvel'
+  UMeanFile='/rigel/ocp/projects/shared_data/offline_velocities/avisoDUACS2014_0.1_degree-mdt/uvel.0000000001.data',
+  VMeanFile='/rigel/ocp/projects/shared_data/offline_velocities/avisoDUACS2014_0.1_degree-mdt/vvel.0000000001.data',
+ &
+
+ &OFFLINE_PARM02
+  offlineLoadPrec=32,
+  offlineIter0=0,
+# one day
+  deltaToffline=86400.,
+# 0.5 day
+  offlineTimeOffset=43200.,
+# one day
+  offlineForcingPeriod=86400.,
+# turn off cycling
+  offlineForcingCycle=0.,
+ &
+
