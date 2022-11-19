@@ -1,8 +1,0 @@
- &diagnostics_list
-# 1 day
-  frequency(2) = 86400.0,
-  filename(2) = 'DiagVel_1day',
-  fields(1,2) = 'UVEL    ','VVEL    ','UVELSQ  ','VVELSQ  ',
- &
- &DIAG_STATIS_PARMS
- &
