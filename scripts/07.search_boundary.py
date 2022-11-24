@@ -44,7 +44,7 @@ lyt = (ly0.values, ly1.values)
 
 lavd = ds.lavd[n_time].to_masked_array().filled(0)
 
-# ci_th -1 cd 0.1
+# ci -1, cd 0.1
 kwargs = dict(CI_th=-1, CI_tol=0.1, min_distance=13, min_limit_diff=1e-8,
               min_area=169, max_footprint=100000, use_threadpool=True, progress=True, convex_def=0.1, 
               max_width=100, min_peak=1e-6)

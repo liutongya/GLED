@@ -132,10 +132,10 @@ for year in np.arange(1993, 2020, 1):
                 delta_lon = center_traj[-1][0] - center_traj[0][0]
                 delta_lat = center_traj[-1][1] - center_traj[0][1]
 
-                displacement_x = delta_lon * lon_to_meters / 1e3
+                displacement_x = delta_lon * lon_to_meters / 1e3    # km
                 displacement_y = delta_lat * lat_to_meters / 1e3
 
-                speed_x = displacement_x / (duration * sec_per_day)
+                speed_x = displacement_x / (duration * sec_per_day) # km/s
                 speed_y = displacement_y / (duration * sec_per_day)
 
                 if vort > 0:

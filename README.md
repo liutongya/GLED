@@ -24,7 +24,6 @@ First, the general features of coherent eddies are provided in the file named ed
 - dx, dy: zonal and meridional displacements (in km) over the eddy lifetime
 - speed_x, speed_y: the zonal and meridional propagation speeds (in m/s) of the eddy
 - lavd: values of Lagrangian-averaged vorticity deviation (LAVD)
-- cd, ci: values of convexity deficiency (CD) and coherency index (CI)
 
 Second, the trajectories of all Lagrangian particles inside the eddy boundary are provided in the file named eddy_traj. The particle positions every 10 days for each eddy are stored in an NC file with a three-dimensional array.
 
